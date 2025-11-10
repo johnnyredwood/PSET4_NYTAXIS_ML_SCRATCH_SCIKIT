@@ -412,4 +412,5 @@ los montos monetarios (EXTRA, FARE_AMOUNT, METROPOLITAN_TAX, TIP_AMOUNT, TOLLS_A
 de viaje (TRIP_DISTANCE) a valores mayores que cero, y la duración del viaje (TRIP_DURATION_MIN) entre 1 y 180 minutos. Además, se asegura 
 que la velocidad promedio (AVG_SPEED_MPH) se mantenga entre 0 y 100 mph y que el porcentaje de propina (TIP_PCT) sea no negativo. 
 Finalmente, se validan las ubicaciones de recogida y destino (PU_LOCATION_ID, DO_LOCATION_ID) para que estén dentro del rango 1 a 265, 
-y las fechas (MONTH, YEAR) se restringen a meses válidos (1–12) y años comprendidos entre 2015 y 2025.
+y las fechas (MONTH, YEAR) se restringen a meses válidos (1–12) y años comprendidos entre 2015 y 2025.# PSET4_NYCTAXIS_ML_SCRATCH_SCIKIT
+# PSET4_NYTAXIS_ML_SCRATCH_SCIKIT
