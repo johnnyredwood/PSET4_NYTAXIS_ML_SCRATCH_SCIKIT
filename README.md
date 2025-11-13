@@ -1,4 +1,4 @@
-Universidad San Francisco de Quito
+```Universidad San Francisco de Quito
 Data Mining
 Proyecto 04
 John Ochoa Abad 345743
@@ -54,7 +54,7 @@ de esta manera se gestiona correctamente los datos sensibles.
 
 #Arquitectura (diagrama/tabla): Spark/Jupyter → Snowflake (raw → analytics.obt_trips).
 
-```Loaders Raw - Taxi Trips y Zones
+ Loaders Raw - Taxi Trips y Zones
         │
         ▼
  Construcción OBT- Analytics
@@ -69,7 +69,7 @@ de esta manera se gestiona correctamente los datos sensibles.
  Modelos ML Scikit Learn
         │
         ▼
- Comparación Modelos```
+ Comparación Modelos
 
 
 #Pasos para Docker Compose y ejecución de notebooks (incluido comando para construir OBT).
@@ -94,7 +94,7 @@ nano .env
 
 2. Verificar estructura de directorios:
 
-```📁 drivers
+📁 drivers
 📁 Evidencias
 📁 init-scripts
 │   └── 01-init-schemas.sql
@@ -123,7 +123,7 @@ nano .env
 docker-compose.yaml
 Dockerfile.obt-builder
 README.md
-requirements.txt```
+requirements.txt
 
 3. Inicialización de la Infraestructura
 Levantar los servicios con Docker Compose:
