@@ -21,9 +21,9 @@ class OBTBuilder:
     
     def create_obt_table(self):
         with self.conn.cursor() as cursor:
-            cursor.execute("CREATE SCHEMA IF NOT EXISTS analytics;")
+            #cursor.execute("CREATE SCHEMA IF NOT EXISTS analytics;")
             
-            cursor.execute("DROP TABLE IF EXISTS analytics.obt_trips;")
+            #cursor.execute("DROP TABLE IF EXISTS analytics.obt_trips;")
             
             cursor.execute("""
                 CREATE TABLE analytics.obt_trips (
@@ -198,7 +198,7 @@ class OBTBuilder:
     def run(self, year_start, year_end, services, run_id, months=None):
         try:
             self.connect()
-            self.create_obt_table()
+            #self.create_obt_table()
             self.build_obt(year_start, year_end, services, run_id, months)
         except Exception as e:
             print(f"Error: {e}")
